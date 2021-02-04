@@ -1,3 +1,4 @@
+/* ajinkya */
 #header{display:flex;
     flex-direction: row;
       
@@ -81,7 +82,7 @@ text-align: center;
     
     }
     
-   
+   /* ram */
 
 .second{
     width:50%;
@@ -93,3 +94,210 @@ text-align: center;
     clear: both;
 float:left;
 margin-left:5%;}
+#freshcont,#takingoffcont,#homecont,#nearcont,#explorecont
+{
+    
+    height: 600px;
+    
+}
+#freshcont>p,#takingoffcont>p,#homecont>p,#nearcont>p,#explorecont>p
+{
+    margin-left: 130px;
+    color: rgb(85, 82, 82);
+}
+#fresh,#takingoff,#home,#near
+{
+    margin-top: 20px;
+    display: flex;
+    max-width: 1200px;
+    float: left;
+    overflow-x: scroll;
+    margin-left: 120px;
+}
+#fresh div,#takingoff>div,#home>div,#near>div
+{
+    width: 400px;
+    margin-left: 20px;
+    
+}
+.clear
+{
+    clear: both;
+}
+.line
+{
+    height: 0.5px;
+    background-color: rgb(114, 111, 111);
+}
+#explore
+{
+    margin-top: 20px;
+    display: flex;
+    float: left;
+    margin-left: 120px;
+}
+#explore>div
+{
+    width: 300px;
+    height: 500px;
+    margin-left: 20px;
+}
+#explore>div>img
+{
+    width: 100%;
+    height: 60%;
+}
+/* bhanu */
+.sideH{
+    color:grey;
+    width:91%;
+    margin:auto;
+  }
+#cont{
+  display:grid;
+  grid-template-columns: 20% 20% 20% 20%; 
+  width:91%;
+  /* height:90%; */
+  gap:3%;
+  margin: auto;
+  grid-template: "a b c d" "a1 b1 c1 d1";
+}
+#cont>div{
+  /* border:solid black; */
+  height: 55vh;    
+  
+}
+#A{
+   background-image: url("https://ksr-ugc.imgix.net/assets/031/762/379/6e4c5fc2ddeb649ff57a684a009644fd_original.png?ixlib=rb-2.1.0&w=700&fit=max&v=1608142137&auto=format&frame=1&lossless=true&s=ceff7a3e1431e5058c8f19aeb80dc9e1");
+   background-size:contain;
+   grid-area: a;
+}  
+#B{
+    background-image:url("https://ksr-ugc.imgix.net/assets/031/755/267/c625c10b46408fa8beb2bce279bfb10e_original.png?ixlib=rb-2.1.0&w=700&fit=max&v=1608072481&auto=format&frame=1&lossless=true&s=c0cea3f96b9d603d04140dca2ffabfa1");
+    background-size:contain;
+    grid-area: b;
+}
+#C{
+    background-image: url("https://ksr-ugc.imgix.net/assets/031/177/159/78d513020e363f5f3483d48678cb3453_original.jpg?ixlib=rb-2.1.0&w=700&fit=max&v=1603807761&auto=format&frame=1&q=92&s=341f2f6662ee94de42ca45ce4032e480");
+    background-size: contain;
+    grid-area: c;
+}
+#D{
+    background-image: url("https://ksr-ugc.imgix.net/assets/030/834/837/90bf0c6bf6ba888fcd8f35a3a85c1709_original.png?ixlib=rb-2.1.0&w=700&fit=max&v=1601587562&auto=format&frame=1&lossless=true&s=37227094bc3841e0aa64cebd3c882466");
+    background-size: contain;
+    grid-area: d;
+}
+#A1{
+    grid-area: a1;
+}
+#B1{
+    grid-area: b1;
+}
+#C1{
+    grid-area: c1;
+}
+#D1{
+    grid-area: d1;
+}
+@media (max-width:1024px){
+    #cont{
+        grid-template: "a b" "a1 b1" "c d" "c1 d1";
+    }
+}    
+/*left responsive height*/ 
+
+#bCont, #zineQ{
+    display:grid;
+    grid-template-columns: 49% 49%;
+    gap:2%;
+    width: 91%;
+    margin: auto;        
+}
+#bCont>div,#zineQ>div{
+   height:38vh;
+   font-size: 20px;
+   
+}
+#imgBlack{
+    background-image: url("https://blog.hdwallsource.com/wp-content/uploads/2014/11/black-wallpaper-27635-28354-hd-wallpapers.jpg");
+    background-size: contain;
+    /* width:100%; */
+}
+#imgZine{
+    background-image: url("https://ksr-ugc.imgix.net/assets/032/004/209/88ca1f65d5badfbb12744873670691d4_original.png?ixlib=rb-2.1.0&crop=faces&w=1024&h=576&fit=crop&v=1610563289&auto=format&frame=1&q=92&s=6a5c411057e6b53a163c5050e3b1e9ba");
+    background-size: cover;  
+        }
+@media  (max-width:1024px){
+    #imgBlack{
+        grid-area: bi;
+    }
+    #bText{
+        grid-area: bt;
+    }
+    #bCont{
+        grid-template:"bi" "bt";
+    }
+    #zineQ{
+        display: flex;
+        flex-direction: column; 
+    }
+}
+#pageLinks{
+    display: flex;
+    width:91%;
+    margin: auto;
+}
+#pageLinks>div{
+    margin-right:2%;
+}
+@media (max-width: 800px){
+    #pageLinks{
+        display: grid;
+        
+    }
+}
+#foot{
+    display: grid;
+    grid-template-rows: repeat(7);
+    grid-template-columns: repeat(3,30%);
+    width: 80%;
+    margin: auto;
+}
+#foot>div{   
+    margin-bottom: 4px;
+    
+}
+#logo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 2%;
+}
+#logo>div{
+    padding: 2%;
+}
+#logo select{
+    padding: 10px;
+}
+#logo img{
+    width:40px;
+}
+@media (max-width: 1024px){
+    #logo{
+        display: flex;
+        flex-direction: column;
+    }
+}
+#policy{
+    display:flex;
+    width:91%;
+    margin: auto;
+}
+#policy>div{
+    margin-right: 2%;
+}
+@media(max-width: 800px){
+    #policy{
+        display: grid;
+        grid-template-columns: repeat(2, 30%);
+    }
+}
