@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #cont{ border:1px solid red;
     width:80%;
     height:100%;
@@ -114,3 +115,58 @@ margin-left:5%;}
         width:100%;
       }
   }
+=======
+#freshcont,#takingoffcont,#homecont,#nearcont,#explorecont
+{
+    
+    height: 600px;
+    
+}
+#freshcont>p,#takingoffcont>p,#homecont>p,#nearcont>p,#explorecont>p
+{
+    margin-left: 130px;
+    color: rgb(85, 82, 82);
+}
+#fresh,#takingoff,#home,#near
+{
+    margin-top: 20px;
+    display: flex;
+    max-width: 1200px;
+    float: left;
+    overflow-x: scroll;
+    margin-left: 120px;
+}
+#fresh div,#takingoff>div,#home>div,#near>div
+{
+    width: 400px;
+    margin-left: 20px;
+    
+}
+.clear
+{
+    clear: both;
+}
+.line
+{
+    height: 0.5px;
+    background-color: rgb(114, 111, 111);
+}
+#explore
+{
+    margin-top: 20px;
+    display: flex;
+    float: left;
+    margin-left: 120px;
+}
+#explore>div
+{
+    width: 300px;
+    height: 500px;
+    margin-left: 20px;
+}
+#explore>div>img
+{
+    width: 100%;
+    height: 60%;
+}
+>>>>>>> 22c2daa7f96025f91fd0c85bbe9488ec2a3c348a
