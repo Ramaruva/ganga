@@ -486,3 +486,22 @@ margin-left:5%;}
         grid-template-columns: repeat(2, 30%);
     }
 }
+
+#cont2{
+     
+    width:70%;
+height:80%;
+
+margin:auto;
+
+
+  
+  
+}
+#cont2:nth-child(1),#count2:nth-child(3),#count2:nth-child(5),#count2:nth-child(7){
+  height:20%;
+  font-size: 100%;
+  margin-top: 5%;
+}
+
+
