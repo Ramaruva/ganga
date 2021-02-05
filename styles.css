@@ -180,11 +180,11 @@
     font-family:'Times New Roman';
     font-weight: lighter;
 }
-.link{
+/* .link{
     color: blue;
     margin-top: -100px;
     font-weight: lighter;
-}
+} */
 /* ajinkya */
 #header
 {display:flex;
@@ -490,21 +490,5 @@ margin-left:5%;}
     }
 }
 
-#cont2{
-     
-    width:70%;
-height:80%;
-
-margin:auto;
-
-
-  
-  
-}
-#cont2:nth-child(1),#count2:nth-child(3),#count2:nth-child(5),#count2:nth-child(7){
-  height:20%;
-  font-size: 100%;
-  margin-top: 5%;
-}
 
 
