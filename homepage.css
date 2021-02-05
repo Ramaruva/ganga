@@ -350,7 +350,7 @@ margin-left:5%;}
 }
 /* bhanu */
 .sideH{
-    color:grey;
+    color:rgb(83, 83, 83);
     width:91%;
     margin:auto;
   }
@@ -387,6 +387,9 @@ margin-left:5%;}
     background-image: url("https://ksr-ugc.imgix.net/assets/030/834/837/90bf0c6bf6ba888fcd8f35a3a85c1709_original.png?ixlib=rb-2.1.0&w=700&fit=max&v=1601587562&auto=format&frame=1&lossless=true&s=37227094bc3841e0aa64cebd3c882466");
     background-size: contain;
     grid-area: d;
+}
+#A:hover, #B:hover, #C:hover, #D:hover{
+    filter:brightness(90%);
 }
 #A1{
     grid-area: a1;
@@ -510,11 +513,44 @@ a{
     background-color: aqua;
     transition: color ;
 } */
-a:hover,h3:hover,p:hover,h1:hover{
+.greenUl:hover{
     color: green;
     text-decoration: underline;
+    cursor:pointer;
+}
+.tealUl:hover{
+    color:rgb(2, 110, 110);
+    text-decoration: underline;
+    cursor:pointer;
 }
 .none:hover{
     color: black;
     text-decoration: none;
+}
+#floatZq{
+    display:flex;
+}
+marquee{
+    background-color:rgba(54, 140, 211, 0.973);
+    height:30px;
+    
+    width:100%;
+    color: white;
+    text-align: center;
+    padding:0px;
+    
+}
+marquee>div{
+    float:left;
+    font-size: 25px;
+    margin-right: 100px;
+}
+#closeMarq{
+    background-color: rgba(54, 140, 211, 0.973);
+    height:32px;
+    color : black;
+}
+ #logo img:hover{
+     background-color: white;
+    filter: invert(100%) sepia(80%) saturate(1000%) hue-rotate(80deg)
 }
