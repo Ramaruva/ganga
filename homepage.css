@@ -547,10 +547,11 @@ marquee>div{
 }
 #closeMarq{
     background-color: rgba(54, 140, 211, 0.973);
-    height:32px;
+    height:30px;
     color : black;
+    border:none;
 }
  #logo img:hover{
      background-color: white;
-    filter: invert(100%) sepia(80%) saturate(1000%) hue-rotate(80deg)
+    filter: invert(100%) sepia(80%) saturate(1000%) hue-rotate(80deg);
 }
