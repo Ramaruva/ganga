@@ -1,5 +1,8 @@
-/*Swetha*/
-p{
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+.greyColor{
     font-weight: bold;
     margin: 80px;
     display: flex;
