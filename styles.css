@@ -180,11 +180,11 @@
     font-family:'Times New Roman';
     font-weight: lighter;
 }
-.link{
+/* .link{
     color: blue;
     margin-top: -100px;
     font-weight: lighter;
-}
+} */
 /* ajinkya */
 #header
 {display:flex;
