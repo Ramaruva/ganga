@@ -7,3 +7,36 @@ close.addEventListener("click",remMarq)
 
 
 
+
+
+//   setTimeout(refreshData, 10000);
+
+// $(document).ready(function(){
+			// 	$('div#loading').removeAttr('id');
+		// });
+		// var preloader = document.getElementById("loading");
+		// // window.addEventListener('load', function(){
+		// // 	preloader.style.display = 'none';
+		// // 	})
+
+		// function myFunction(){
+		// 	preloader.style.display = 'none';
+		// };
+
+
+
+var loader= document.querySelector(".loader")
+var line=document.createElement("hr");
+loader.appendChild(line)
+var main = document.querySelector(".main")
+function init(){
+    setTimeout(() =>{
+        loader.appendChild(line)
+        loader.style.opacity=0;
+        loader.style.display='none';
+
+        main.style.display='block';
+        main.style.opacity=1;
+    },2000);
+}
+init();
