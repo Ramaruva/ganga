@@ -30,6 +30,9 @@
 {
     border: 0.2px solid rgb(194, 189, 189);
 }
+#grid img{
+    width: 100%;
+}
 #button>button
 {
     margin-left:610px;
