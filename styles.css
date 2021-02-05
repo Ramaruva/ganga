@@ -1,5 +1,8 @@
-/*Swetha*/
-p{
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+.greyColor{
     font-weight: bold;
     margin: 80px;
     display: flex;
@@ -97,20 +100,7 @@ p{
     
 }
 
-@media screen and (max-width:992px){
-    #part2{
-        display: flex;
-        grid-template: "left"
-                        "right";
-    }
-}
-@media screen and (max-width:992px){
-    #part1{
-        display: flex;
-        grid-template: "left1 right1"
-                        "left2 right2";
-    }
-}
+
 .part21{
     grid-area: left;
     float: left;
@@ -190,11 +180,11 @@ p{
     font-family:'Times New Roman';
     font-weight: lighter;
 }
-.link{
+/* .link{
     color: blue;
     margin-top: -100px;
     font-weight: lighter;
-}
+} */
 /* ajinkya */
 #header
 {display:flex;
