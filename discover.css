@@ -1,0 +1,16 @@
+#cont2{
+     
+    width:80%;
+    height:90%;
+
+margin:auto;
+
+
+  
+  
+}
+#cont2:nth-child(1),#count2:nth-child(3),#count2:nth-child(5),#count2:nth-child(7){
+  height:5%;
+  font-size: 100%;
+  margin-top: 5%;
+}
