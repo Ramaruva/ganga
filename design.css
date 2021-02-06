@@ -24,6 +24,10 @@
     .box:nth-child(1), .box:nth-child(2),.box:nth-child(4),.box:nth-child(5){
         margin-top: 2%;
      }
+     .design{font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Potta One', cursive;}
      #tags{
          display:flex;
          flex-direction: row;
@@ -97,5 +101,20 @@ text-align: center;
          margin-top:4%;
          background-color: wheat;
         padding:4%;
-        height:200px
+        height:450px;
+        margin-bottom:5% ;
      }
+ .box4{width:70%;
+     background-color: rgb(164, 192, 218);
+     height:30px;
+     text-align: center;
+     font-size: 20px;
+    margin-top: 3%;
+    padding:.5%
+ }
+ .box4:nth-child(2){
+     width:30%
+ }
+.box4:nth-child(1){background:blue;
+    color:white
+}
