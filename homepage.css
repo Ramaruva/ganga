@@ -533,6 +533,7 @@ a{
 }
 #floatZq{
     display:flex;
+    margin: -10px;
 }
 marquee{
     background-color:rgba(54, 140, 211, 0.973);
