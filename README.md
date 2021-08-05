@@ -9,7 +9,7 @@
 
 ### Design and Tech Page
 
-<img src="design.png" width="500"/>
+<img src="design.png" style="width:60%"/>
 
 ## Tags
 * Marquee
