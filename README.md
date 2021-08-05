@@ -4,7 +4,8 @@
 
 *Kickstarter is a crowdfunding platform which helps to bring creative projects to life.* 
 
-![](https://bhanum.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1612851906089%2FKcdzKIovN.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75)
+<!-- ![](https://bhanum.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1612851906089%2FKcdzKIovN.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75) -->
+<img src="ezgif.com-gif-maker (1).gif"/>
 
 #### things which I have learnt and used in this project
 
@@ -37,6 +38,6 @@
 * remove()
 
 
-## Most important part is communicating and collaborating with team members
-## Most important part is that we have learnt communicating and collaborating with team members
+
+### Most important part is that we have learnt during our project is communicating and collaborating well with the team members is key to a successful project.
 
